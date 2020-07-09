@@ -40,9 +40,8 @@ const useStylesTypoghraphy = makeStyles({
 
 return (
     <div >
-     <Paper elevation={3} style={{height:"50px",color:"grey"}}><Typography variant="h4" style={{margin:'0px',paddingBottom:"0px"}}>Select Any Country</Typography></Paper>
-<br/>      
-      <FormControl style={{width:"100%",backgroundColor:"grey",borderRadius:"7px"}}>
+      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FormControl style={{display: "flex" ,justifyContent:"center",}} style={{width:"70%",backgroundColor:"grey",borderRadius:"30px"}}>
           <NativeSelect defaultValue="" onChange={(e)=>CountryHendler(e.target.value)}>
           <option>&nbsp;&nbsp;Global Data</option>   
           {fcountry.map((country,i)=><option key={i} value={country}>{country}</option>)}

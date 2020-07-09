@@ -22,7 +22,8 @@ const lineChart=(
     datasets:[{
         data:DailyData.map(({confirmed})=>confirmed),
     label:"Infected",
-    borderColor:"rgb(23,44,44)",
+    borderColor:"rgb(33,55,133)",
+    backgroundColor:"rgb(20,45,120)",
     fill:true
     },{
             data:DailyData.map(({deaths})=>deaths),
@@ -60,7 +61,7 @@ const BarChart = (
 
     
 return(
-<div>{(country) ? BarChart:lineChart}</div>
+<div style={{height:"85%",width:"85%",margin:"0px auto"}}>{(country) ? BarChart:lineChart}</div>
 )
 }
 export default Charts;

@@ -24,8 +24,9 @@ return(<><Header/>
 <div className="container">
   
   <Cards data={data}/>
-  <Charts data={data} country={country}/>
   <CountryData CountryHendler={this.CountryHendler}/>
+  <Charts data={data} country={country}/>
+  
 </div></>
   );
 }}

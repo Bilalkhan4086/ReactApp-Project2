@@ -1,6 +1,8 @@
 body{
-    
-    background-color: rgb(250,250,250);
+    background-image: url('background\ pic\ css/covid-1.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
 }
 .container{
     justify-content: center;
