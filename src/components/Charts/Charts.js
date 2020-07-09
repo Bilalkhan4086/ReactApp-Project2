@@ -23,7 +23,7 @@ const lineChart=(
         data:DailyData.map(({confirmed})=>confirmed),
     label:"Infected",
     borderColor:"rgb(33,55,133)",
-    backgroundColor:"rgb(20,45,120)",
+    backgroundColor:"rgb(21,45,120)",
     fill:true
     },{
             data:DailyData.map(({deaths})=>deaths),
