@@ -12,7 +12,7 @@ function Charts({data:{confirmed,recovered,deaths},country}){
         setDailyData(await fetchDailyData());
         console.log("My Daily Data is = ",DailyData);
         }
-        fetchApi();},[setDailyData])
+        fetchApi();},[setDailyData],[])
 
 const lineChart=(
     DailyData.length ?

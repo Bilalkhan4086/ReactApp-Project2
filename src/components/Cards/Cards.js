@@ -26,7 +26,7 @@ if(!confirmed){
   return (<>
     {/* //Infected People */}
     <Grid container spacing={0} style={{margin:"50px 0",justifyContent:"center"}}>
-    <Grid item component={Card} xs={3} variant="outlined" gutterBottom style={{margin:"0 2%"}} style={{borderBottom:"4px solid orange"}}>
+    <Grid item component={Card} xs={3} variant="outlined" gutterBottom style={{borderBottom:"4px solid orange",margin:"0 2%"}}>
       <CardContent>
       <Typography className={classes.title} color="textPrimary">
           Infected
